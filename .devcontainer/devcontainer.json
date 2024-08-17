@@ -15,7 +15,8 @@
 				"oderwat.indent-rainbow",
 				"srobert0560.sr-ansible-snippets",
 				"ms-python.python",
-				"ms-python.vscode-pylance"
+				"ms-python.vscode-pylance",
+				"ms-azuretools.vscode-docker"
 
 
 			]
