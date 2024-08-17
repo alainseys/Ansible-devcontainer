@@ -12,12 +12,12 @@ If you have one of those extensions on your local system you can test it by remo
 ### WSL
 If you are using WSL on windows you need to execute some additional steps these steps are simply running some simple commands to get you starter after that you can enter CTRL + SHIFT + P and seacht for "Dev Containers: Rebuild Container" and start developing in Ansible.
 
-`sudo addgroup --system docker`
-`sudo adduser $USER docker`
-`newgrp docker`
-`sudo chown root:docker /var/run/docker.sock`
-`sudo chmod g+w /var/run/docker.sock`
-
+ sudo addgroup --system docker
+    sudo addgroup --system docker
+    sudo adduser $USER docker
+    newgrp docker
+    sudo chown root:docker /var/run/docker.sock
+    sudo chmod g+w /var/run/docker.sock`
 
 
 
