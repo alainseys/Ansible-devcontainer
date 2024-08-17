@@ -26,3 +26,7 @@ sudo adduser $USER docker
 newgrp docker
 sudo chown root:docker /var/run/docker.sock
 sudo chmod g+w /var/run/docker.sock`
+
+## GIT
+For the usage with git you need to add you ssh credentials on the machine you are running the container from, once you have this done then you can simply clone your code repository and start developing it as simple as that.
+
