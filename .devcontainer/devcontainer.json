@@ -16,7 +16,10 @@
 				"srobert0560.sr-ansible-snippets",
 				"ms-python.python",
 				"ms-python.vscode-pylance",
-				"ms-azuretools.vscode-docker"
+				"ms-azuretools.vscode-docker",
+				"donjayamanne.githistory",
+				"eamodio.gitlens",
+				"ryanolsonx.solarized"
 
 
 			]
