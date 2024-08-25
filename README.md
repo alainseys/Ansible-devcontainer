@@ -4,7 +4,7 @@
 
  - Download and install Docker
  - Download and install Visual Studio Code
- - Open Visual Studio Code and download the extension "Dev Containers"
+ - Open Visual Studio Code and download the extension "Dev Containers "
 
 When the installation is compled Visual Studio Code willl restart once restarted  enter the following keys CTRL + SHIFT + P and search for "Dev Containers: Rebuild Container".
 
