@@ -8,6 +8,10 @@
 		// Update the 'dockerFile' property if you aren't using the standard 'Dockerfile' filename.
 		"dockerfile": "../Dockerfile"
 	},
+		"mounts": [
+        "source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind"
+	],
+
 	"customizations": {
 		"vscode": {
 			"extensions": [
