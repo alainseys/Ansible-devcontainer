@@ -5,11 +5,23 @@ RUN python3 -m pip install ansible-lint
 RUN python3 -m pip install ansible-dev-tools
 RUN python3 -m pip install pywinrm
 RUN python3 -m pip install ansible-creator
-RUN python3 -m pip install molecule
+# Add dependencies to allow molecule testing
 RUN python3 -m pip install pyVmomi
 RUN python3 -m pip install molecule
 RUN python3 -m pip install netmiko
+RUN python3 -m pip install molecule
+RUN python3 -m pip install molecule-docker
 RUN python3 -m pip install docker
+RUN python3 -m pip install flake8
+RUN python3 -m pip install flake8-bugbear
+RUN python3 -m pip install flake8-docstrings
+RUN python3 -m pip install flake8-import-order
+RUN python3 -m pip install flake8-pylint
+RUN python3 -m pip install pytest 
+RUN python3 -m pip install pytest-testinfra
+RUN python3 -m pip install netmiko
+RUN python3 -m pip install yamllint
+
 RUN apt-get update -y && \
     DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
     sshpass
