@@ -25,7 +25,8 @@
 				"eamodio.gitlens",
 				"ryanolsonx.solarized",
 				"redhat.vscode-redhat-account",
-				"4ops.terraform"
+				"4ops.terraform",
+				"emmanuelbeziat.vscode-great-icons"
 
 
 			]
