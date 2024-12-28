@@ -12,8 +12,9 @@
         "source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind",
 		"source=${localWorkspaceFolder},target=/workspace,type=bind"
 	],
+	//Remark This should match the dockerfile value
 	"workspaceFolder": "/workspace",
-	//"postCreateCommand": "cd dev/app",
+	//"postCreateCommand": "",
 	"customizations": {
 		"vscode": {
 			"extensions": [
@@ -23,7 +24,9 @@
 				"donjayamanne.githistory",
 				"eamodio.gitlens",
 				"ryanolsonx.solarized",
-				"emmanuelbeziat.vscode-great-icons"
+				"emmanuelbeziat.vscode-great-icons",
+				"wayou.vscode-todo-highlight",
+				"fabiospampinato.vscode-todo-plus"
 			]
 		}
 	}
