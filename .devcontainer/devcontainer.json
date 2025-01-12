@@ -26,7 +26,8 @@
 				"ryanolsonx.solarized",
 				"emmanuelbeziat.vscode-great-icons",
 				"wayou.vscode-todo-highlight",
-				"fabiospampinato.vscode-todo-plus"
+				"fabiospampinato.vscode-todo-plus",
+				"GanesanChandran.fetch-client"
 			]
 		}
 	}
